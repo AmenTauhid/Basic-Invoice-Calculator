@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="W2A_InvoiceCalculator.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Invoice Calculator!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry x:Name="subtotal" Placeholder="Enter the subtotal" TextChanged="Subtotal_OnTextChanged"/> <!-- subtotal entry-->
+        <Entry x:Name="tips" Placeholder="Enter the tip % e.g. 5" TextChanged="Tips_OnTextChanged"/> <!-- tip entry -->
+        <Label HorizontalTextAlignment="Center" x:Name="result" FontSize="Medium"/> <!-- Result label -->
+        <Button Clicked="Button_Clicked"  Text="Submit"/>
+        <Label HorizontalTextAlignment="Center" Text="Created by Ayman Tauhid. Copyrights enabled."/>
+    </StackLayout>
+
+</ContentPage>
