@@ -13,10 +13,7 @@ namespace W2A_InvoiceCalculator
         public MainPage()
         {
             InitializeComponent();
-            //string name = "Ayman";
-            //decimal tax = 13;
-            //Decimal.Parse(subtotal.Text) 
-            //result.Text = $"{Decimal.Parse(subtotal.Text) + Decimal.Parse(tips.Text) + Decimal.Parse(subtotal.Text) * (13 / 100)}";
+            
         }
 
         //Ayman 
